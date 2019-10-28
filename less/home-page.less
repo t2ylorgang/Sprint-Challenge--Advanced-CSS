@@ -60,12 +60,17 @@
       .btn {
         display: flex;
 
-        button{
+        button {
           background-color: @btn-bg-color;
           color: white;
           font-family: "Ubuntu", sans-serif;
           .round-borders;
           .bright-border(0.5rem, 1rem);
+        }
+
+        button:hover {
+          color: @btn-bg-color;
+          background-color: white;
         }
       }
     }
@@ -81,4 +86,4 @@
       }
     }
   }
-}// home
+}
