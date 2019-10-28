@@ -185,6 +185,11 @@ p {
   width: 45%;
   background-color: #F6F6F6;
 }
+@media screen and (max-width: 500px) {
+  .topbar nav {
+    width: 85%;
+  }
+}
 .topbar nav a {
   font-family: "Ubuntu", sans-serif;
   color: #5E6164;
@@ -201,6 +206,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 500px) {
+  .home .intro img {
+    width: 100%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -235,6 +245,14 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  .home .walk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .home .walk .walk-text {
   width: 50%;
@@ -272,4 +290,9 @@ footer {
   height: auto;
   border-radius: 0.7rem;
   border: none;
+}
+@media screen and (max-width: 500px) {
+  .home .walk .walk-img img {
+    display: none;
+  }
 }
