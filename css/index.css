@@ -251,11 +251,12 @@ footer {
 .home .walk .walk-text .btn button {
   background-color: #22283A;
   color: white;
-  padding: 0.5rem;
-  margin: 0.5rem;
   font-family: "Ubuntu", sans-serif;
   border-radius: 0.7rem;
   border: none;
+  border: 0.5rem solid chartreuse;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 .home .walk .walk-img {
   width: 46%;
