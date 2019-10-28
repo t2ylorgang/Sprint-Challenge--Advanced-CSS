@@ -23,7 +23,7 @@
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
-      height: 100%;
+      .responsive-img;
     }
   }
 
@@ -58,6 +58,16 @@
       }
 
       .btn {
+        display: flex;
+
+        button {
+          background-color: @btn-bg-color;
+          color: white;
+          padding: .5rem;
+          margin: .5rem;
+          font-family: "Ubuntu", sans-serif;
+          .round-borders;
+        }
       }
     }
 
@@ -67,8 +77,8 @@
       
       img {
         width: 100%;
-        height: auto;
-        border-radius: 10px;
+        .responsive-img;
+        .round-borders;
       }
     }
   }
