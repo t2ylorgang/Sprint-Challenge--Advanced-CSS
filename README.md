@@ -35,14 +35,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+--->An adaptive website simply detects the screen size of the device requesting the web page and loads the appropriate layout for that specific screen size. There may still be some issues on different devices that are unique in shape. However, a responsive website adapts to any screen size on any device as well as adapting based on user behavior or device orientation. Responsive websites use CSS media queries.
 
 2. Describe what it means to be mobile first vs desktop first.
+--->To be mobile first means that a website is designed from the mobile viewpoint first. These websites are optimized for being viewed on mobile devices such as smartphones first, and then coded for desktop and tablet views after.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+--->Making the font-size 62.5% in the html tag allows us to add size by units of ten pixels. If you set this to 62.5%, 1rem=10px. 1.5rem=15px; and so on.
 
 4. How would you describe preprocessing to someone new to CSS?
+--->CSS preprocessing is a program/technique that generates regular CSS from a "less" file. When writing this less file, preprocessing also allows you to do special things in the the language that are not available in regular CSS; things such as nesting, mixins, variables etc. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+---> My favorite concept in preprocessing is that it makes for less lines of code overall and it is easier to read or follow. However, I was having a lot of trouble with the concept of "nesting" my selectors in the less file. I did the entire thing wrong and it made a mess of my code and produced an error in the compiler.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
